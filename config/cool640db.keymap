@@ -114,10 +114,10 @@
 
         NUM {
             bindings = <
-&kp F1       &kp F2   &kp F3             &kp F4         &kp F5          &kp F6         &kp F7          &kp F8          &kp F9           &kp F10
-&kp AT_SIGN  &kp SQT  &kp DOUBLE_QUOTES  &kp SEMICOLON  &kp COLON       &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT        &kp ENTER
-&kp Z        &kp X    &kp C              &kp V          &kp B           &kp LC(SPACE)  &kp RG(SPACE)   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SLASH
-&kp N1       &kp N2   &kp LEFT_CONTROL   &kp LEFT_GUI   &kp UNDERSCORE  &none          &kp LEFT_ALT    &kp BACKSPACE   &kp N3           &mo 4
+&kp LALT         &msc SCRL_LEFT    &msc SCRL_UP      &msc SCRL_RIGHT  &mkp MB5        &kp F6         &kp F7          &kp F8          &kp F9           &kp F10
+&mt LCTRL MINUS  &mt LEFT_WIN RET  &msc SCRL_DOWN    &mkp MB1         &mkp MB3        &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT        &kp ENTER
+&kp LSHIFT       &kp BACKSPACE     &kp DELETE        &mkp MB2         &mkp MB4        &kp LC(SPACE)  &kp RG(SPACE)   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SLASH
+&kp N1           &kp N2            &kp LEFT_CONTROL  &kp LEFT_GUI     &kp UNDERSCORE  &none          &kp LEFT_ALT    &kp BACKSPACE   &kp N3           &mo 4
             >;
         };
 
