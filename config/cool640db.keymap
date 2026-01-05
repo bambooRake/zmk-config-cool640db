@@ -105,10 +105,10 @@
 
         FUNCTION {
             bindings = <
-&mt LALT GRAVE                     &kp SLASH           &kp N7  &mt LALT N8        &kp N5       &kp N6         &kp N7        &kp N8                &kp N9                 &kp N0
-&mt LEFT_SHIFT MINUS               &mt LEFT_WIN EQUAL  &kp N4  &mt LEFT_SHIFT N5  &mt LWIN N6  &kp AMPERSAND  &kp SQT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER
-&mt NON_US_BACKSLASH LEFT_CONTROL  &kp SQT             &kp N1  &mt LCTRL N2       &kp N3       &kp TILDE      &kp QUESTION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION
-&trans                             &trans              &trans  &kp N0             &none        &kp MINUS      &kp LEFT_ALT  &to 3                 &kp C_VOLUME_DOWN      &kp C_VOLUME_UP
+&mt LALT GRAVE                     &kp SLASH           &kp N7  &mt LALT N8        &kp N5       &kp F1   &kp F2   &kp F3            &kp F4             &kp F5
+&mt LEFT_SHIFT MINUS               &mt LEFT_WIN EQUAL  &kp N4  &mt LEFT_SHIFT N5  &mt LWIN N6  &kp F6   &kp F7   &kp F8            &kp F9             &kp F10
+&mt NON_US_BACKSLASH LEFT_CONTROL  &kp SQT             &kp N1  &mt LCTRL N2       &kp N3       &kp F11  &kp F12  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans                             &trans              &trans  &kp N0             &none        &trans   &trans   &trans            &trans             &trans
             >;
         };
 
