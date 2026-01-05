@@ -123,10 +123,10 @@
 
         ARROW {
             bindings = <
-&mt LALT GRAVE          &kp TAB             &kp ESC         &kp UP    &kp PG_UP      &kp Y     &kp U         &kp I      &kp O       &kp P
-&kp LSHIFT              &mt LWIN LA(ENTER)  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT      &kp H     &kp J         &kp K      &kp L       &kp ENTER
-&mt LEFT_CONTROL COMMA  &kp DEL             &kp HOME        &kp END   &kp PAGE_DOWN  &kp N     &kp M         &kp COMMA  &kp PERIOD  &kp LEFT_SHIFT
-&trans                  &trans              &trans          &trans    &trans         &mkp MB2  &kp LEFT_ALT  &to 0      &kp N3      &kp N4
+&mt LALT GRAVE          &kp TAB             &kp ESC         &kp UP    &kp PG_UP      &mkp MB5  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &kp RALT
+&kp LSHIFT              &mt LWIN LA(ENTER)  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT      &mkp MB3  &mkp MB1        &msc SCRL_DOWN  &mo 5            &kp RSHIFT
+&mt LEFT_CONTROL COMMA  &kp DEL             &kp HOME        &kp END   &kp PAGE_DOWN  &mkp MB4  &mkp MB2        &mo 5           &kp RWIN         &kp RIGHT_CONTROL
+&trans                  &trans              &trans          &trans    &trans         &trans    &trans          &trans          &trans           &trans
             >;
         };
 
