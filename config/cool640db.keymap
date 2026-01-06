@@ -21,7 +21,7 @@
 
         hennkan {
             bindings = <&kp INTERNATIONAL_4>;
-            key-positions = <11 12>;
+            key-positions = <1 2>;
         };
 
         m1 {
