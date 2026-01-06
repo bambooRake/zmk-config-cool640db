@@ -39,11 +39,13 @@
 &trackball_listener_R {
     status = "okay";
     device = <&trackball_R>;
+    layers = <0 1 2 3 4 6>;
 };
 
 &trackball_listener_R_scroll {
     status = "okay";
     device = <&trackball_R>;
+    layers = <5>;
 };
 
 &spi0 {
