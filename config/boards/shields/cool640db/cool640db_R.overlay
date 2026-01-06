@@ -39,6 +39,13 @@
 &trackball_listener_R {
     status = "okay";
     device = <&trackball_R>;
+    conditional = <&zmk_layer_state 5 0>;
+};
+
+&trackball_listener_R_scroll {
+    status = "okay";
+    device = <&trackball_R>;
+    conditional = <&zmk_layer_state 5>;
 };
 
 &spi0 {
