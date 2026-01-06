@@ -14,57 +14,24 @@
     combos {
         compatible = "zmk,combos";
 
-        ESC_ {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
-            layers = <0>;
+        muhenkan {
+            bindings = <&kp INT_MUHENKAN>;
+            key-positions = <11 12>;
         };
 
-        TAB_ {
-            bindings = <&kp TAB>;
-            key-positions = <10 11>;
+        hennkan {
+            bindings = <&kp INTERNATIONAL_4>;
+            key-positions = <11 12>;
         };
 
-        caps {
-            bindings = <&kp CAPS>;
-            key-positions = <20 21>;
-            layers = <0>;
+        m1 {
+            bindings = <&kp RS(RA(F11))>;
+            key-positions = <3 13>;
         };
 
-        BS {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <9 8>;
-            layers = <0>;
-        };
-
-        BT_ALL_CLEAR {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <9 8>;
-            layers = <2>;
-        };
-
-        MB1_ {
-            bindings = <&mkp MB1>;
-            key-positions = <4 3>;
-            layers = <0>;
-        };
-
-        MB2_ {
-            bindings = <&mkp MB2>;
-            key-positions = <3 2>;
-            layers = <0>;
-        };
-
-        VOL_UP {
-            bindings = <&kp C_VOLUME_UP>;
-            key-positions = <5 6>;
-            layers = <1>;
-        };
-
-        VOL_DOWN {
-            bindings = <&kp C_VOLUME_DOWN>;
-            key-positions = <4 3>;
-            layers = <1>;
+        m2 {
+            bindings = <&kp RA(RS(F12))>;
+            key-positions = <4 14>;
         };
     };
 
