@@ -10,6 +10,11 @@
         zmk,physical-layout = &default_layout;
     };
 
+    zmk_layer_state: zmk_layer_state {
+        compatible = "zmk,conditional-layer-state";
+        #binding-cells = <2>;
+    };
+
 //trackball settings  
 split_inputs {
       #address-cells = <1>;
@@ -35,6 +40,16 @@ split_inputs {
     trackball_listener_R: trackball_listener_R {
       compatible = "zmk,input-listener";
       status = "disabled";    
+    };
+
+    trackball_listener_R_scroll: trackball_listener_R_scroll {
+      compatible = "zmk,input-listener";
+      status = "disabled";
+
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
+                           <&zip_xy_scaler 1 16>,
+                           <&zip_scroll_scaler 1 5>,
+                           <&zip_xy_to_scroll_mapper>;
     };
 
     kscan0: kscan {
