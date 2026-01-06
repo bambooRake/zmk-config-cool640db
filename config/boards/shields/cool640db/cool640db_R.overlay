@@ -41,7 +41,7 @@
     device = <&trackball_R>;
 };
 
-&trackball_listener_R_scroll_layer {
+&trackball_listener_R_scroll {
     status = "okay";
     device = <&trackball_R>;
 };
