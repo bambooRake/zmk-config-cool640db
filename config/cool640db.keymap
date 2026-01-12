@@ -116,8 +116,8 @@
             bindings = <
 &kp COMMA            &mt_tap LWIN PERIOD      &kp N7                    &mt LALT N8           &kp N9                       &kp F1   &kp F2   &kp F3            &kp F4             &kp F5
 &mt LEFT_CONTROL N1  &mt LEFT_ALT N2          &kp N3                    &kp N4                &mt_tap F5 N5                &kp F6   &kp F7   &kp F8            &kp F9             &kp F10
-&mt LSHFT N6         &mt_tap LEFT_BRACKET N7  &mt_tap RIGHT_BRACKET N8  &mt_tap SEMICOLON N9  &mt_tap NON_US_BACKSLASH N0  &kp F11  &kp F12  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans               &trans                   &trans                    &kp SLASH             &none                        &trans   &trans   &trans            &trans             &trans
+&mt LSHFT N6         &mt_tap LEFT_BRACKET N7  &mt_tap RIGHT_BRACKET N8  &mt_tap SEMICOLON N9  &mt_tap NON_US_BACKSLASH N0  &kp F11  &kp F12  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CLEAR
+&trans               &trans                   &trans                    &kp SLASH             &trans                       &trans   &trans   &trans            &trans             &trans
             >;
         };
 
@@ -125,17 +125,17 @@
             bindings = <
 &mt_tap PRINTSCREEN ESCAPE  &mt LEFT_GUI PERIOD  &tp_msc_up_left     &mkp MB4  &mkp MB5  &mt_tap END HOME  &kp UP_ARROW    &kp TAB      &kp RIGHT_WIN   &kp ESCAPE
 &mt LEFT_CONTROL MINUS      &mt LEFT_ALT RET     &tp_msc_down_right  &mkp MB1  &mkp MB3  &kp LEFT          &kp DOWN_ARROW  &kp RIGHT    &mt RALT SPACE  &kp RIGHT_CONTROL
-&mt LEFT_SHIFT INS          &kp BACKSPACE        &mo 5               &mkp MB2  &kp DEL   &mkp MB1          &kp PAGE_DOWN   &kp PAGE_UP  &trans          &kp RSHIFT
+&mt LEFT_SHIFT INS          &kp BACKSPACE        &mo 5               &mkp MB2  &kp DEL   &mkp MB1          &kp PAGE_DOWN   &kp PAGE_UP  &kp CLEAR       &kp RSHIFT
 &trans                      &trans               &trans              &trans    &trans    &trans            &trans          &trans       &trans          &trans
             >;
         };
 
         ARROW {
             bindings = <
-&mt LALT GRAVE          &kp TAB             &kp ESC         &kp UP    &kp PG_UP      &mkp MB5  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &kp RALT
-&kp LSHIFT              &mt LWIN LA(ENTER)  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT      &mkp MB3  &mkp MB1        &msc SCRL_DOWN  &mo 5            &kp RSHIFT
-&mt LEFT_CONTROL COMMA  &kp DEL             &kp HOME        &kp END   &kp PAGE_DOWN  &mkp MB4  &mkp MB2        &mo 5           &kp RWIN         &kp RIGHT_CONTROL
-&trans                  &trans              &trans          &trans    &trans         &trans    &trans          &trans          &trans           &trans
+&kp ESC                 &mt LWIN CLEAR  &kp TAB         &kp UP         &mt_tap END HOME  &mkp MB5       &mkp MB4  &tp_msc_up_left     &kp RWIN        &kp ESCAPE
+&mt LEFT_CONTROL CLEAR  &mt LALT GRAVE  &kp LEFT_ARROW  &kp DOWN       &kp RIGHT         &mkp MB3       &mkp MB1  &tp_msc_down_right  &mt RALT SPACE  &kp RIGHT_CONTROL
+&mt LEFT_SHIFT CLEAR    &kp BACKSPACE   &kp PG_UP       &kp PAGE_DOWN  &kp DEL           &kp BACKSPACE  &mkp MB2  &mo 5               &kp CLEAR       &kp RSHIFT
+&trans                  &trans          &trans          &trans         &trans            &trans         &trans    &trans              &trans          &trans
             >;
         };
 
