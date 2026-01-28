@@ -124,7 +124,7 @@
 
         FUNCTION {
             bindings = <
-&kp COMMA            &mt_tap LWIN PERIOD      &kp N7                    &mt LALT N8           &kp N9                &kp F1   &kp F2   &kp F3            &kp F4             &kp F5
+&kp COMMA            &mt_tap LWIN PERIOD      &kp SINGLE_QUOTE          &kp MINUS             &kp EQUAL             &kp F1   &kp F2   &kp F3            &kp F4             &kp F5
 &mt LEFT_CONTROL N1  &mt LEFT_ALT N2          &kp N3                    &kp N4                &mt_tap F5 N5         &kp F6   &kp F7   &kp F8            &kp F9             &kp F10
 &mt LSHFT N6         &mt_tap LEFT_BRACKET N7  &mt_tap RIGHT_BRACKET N8  &mt_tap SEMICOLON N9  &mt_tap BACKSLASH N0  &kp F11  &kp F12  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CLEAR
 &trans               &trans                   &trans                    &kp SLASH             &trans                &trans   &trans   &trans            &trans             &trans
